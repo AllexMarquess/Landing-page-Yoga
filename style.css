@@ -80,11 +80,11 @@ nav {
     z-index: -1;
 
     /* quando ta escondido*/
-    transform: translateY(100%);
+    transform: translateY(0);
 }
    /* quando aparece */
 .nav__links.open {
-    transform: translateY(0);
+    transform: translateY(100%);
 }
 
 .nav__links  a {
